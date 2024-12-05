@@ -1,0 +1,54 @@
+/* Navbar container */
+.nav {
+    height: 70px;
+    /* background-color: rgb(218, 218, 241); */
+    background-color: rgb(238,238,228);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    color: black;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .nav-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(245, 21, 21);
+  }
+  
+  /* Menu container */
+  .nav-menus {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Unordered list styles */
+  ul {
+    display: flex;
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+  
+  /* List item styling */
+  li {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  /* Link styling */
+  li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  li a:hover {
+    color: #007bff; /* Add hover effect */
+  }
+  
